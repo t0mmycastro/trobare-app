@@ -1,0 +1,7 @@
+{
+  "name": "trobare-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
