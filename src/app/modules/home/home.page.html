@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Inicio
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-row>
+    <ion-col sizeLg="6" sizeMd="6" sizeXs="12" *ngFor="let category of categories">
+      <ion-card [routerLink]="['/world', category.id_category]">
+        <img src="../../assets/img-cities/{{category.icon_category}}">
+        <div class="card-title">{{category.category}}</div>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-content>

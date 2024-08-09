@@ -1,0 +1,185 @@
+{
+    "Mundo": {
+        "Discos & Tragos": {
+            "Sub Mundo | Fiestas": {
+                "Discotecas": [
+                    {
+                        "id": "1",
+                        "name": "Prueba Imagen 1",
+                        "image": "1.jpg",
+                        "desc": "Prueba de descripción 1"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Prueba Imagen 2",
+                        "image": "2.jpg",
+                        "desc": "Prueba de descripción 2"
+                    }
+                ],
+                "Club Nocturnos": [
+                    {
+                        "id": "1",
+                        "name": "Prueba Imagen 1",
+                        "image": "1.jpg",
+                        "desc": "Prueba de descripción 1"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Prueba Imagen 2",
+                        "image": "2.jpg",
+                        "desc": "Prueba de descripción 2"
+                    }
+                ],
+                "Fiestas Especiales": [
+                    {
+                        "id": "1",
+                        "name": "Prueba Imagen 1",
+                        "image": "1.jpg",
+                        "desc": "Prueba de descripción 1"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Prueba Imagen 2",
+                        "image": "2.jpg",
+                        "desc": "Prueba de descripción 2"
+                    }
+                ]
+            },
+            "Sub Mundo | Bebidas y Música": {
+                "Pubs & Bares": [
+                    {
+                        "id": "1",
+                        "name": "Prueba Imagen 1",
+                        "image": "1.jpg",
+                        "desc": "Prueba de descripción 1"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Prueba Imagen 2",
+                        "image": "2.jpg",
+                        "desc": "Prueba de descripción 2"
+                    }
+                ],
+                "Restobar": [
+                    {
+                        "id": "1",
+                        "name": "Prueba Imagen 1",
+                        "image": "1.jpg",
+                        "desc": "Prueba de descripción 1"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Prueba Imagen 2",
+                        "image": "2.jpg",
+                        "desc": "Prueba de descripción 2"
+                    }
+                ],
+                "Karaoke": [
+                    {
+                        "id": "1",
+                        "name": "Prueba Imagen 1",
+                        "image": "1.jpg",
+                        "desc": "Prueba de descripción 1"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Prueba Imagen 2",
+                        "image": "2.jpg",
+                        "desc": "Prueba de descripción 2"
+                    }
+                ]
+            }
+        },
+        "Salud & Relajación": {
+            "Sub Mundo | Descanso y Bienestar": {
+                "Termas": [
+                    {
+                        "id": "1",
+                        "name": "Prueba Imagen 1",
+                        "image": "1.jpg",
+                        "desc": "Prueba de descripción 1"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Prueba Imagen 2",
+                        "image": "2.jpg",
+                        "desc": "Prueba de descripción 2"
+                    }
+                ],
+                "Spa, Masajes y Terapias": [
+                    {
+                        "id": "1",
+                        "name": "Prueba Imagen 1",
+                        "image": "1.jpg",
+                        "desc": "Prueba de descripción 1"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Prueba Imagen 2",
+                        "image": "2.jpg",
+                        "desc": "Prueba de descripción 2"
+                    }
+                ],
+                "Baños y Saunas": [
+                    {
+                        "id": "1",
+                        "name": "Prueba Imagen 1",
+                        "image": "1.jpg",
+                        "desc": "Prueba de descripción 1"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Prueba Imagen 2",
+                        "image": "2.jpg",
+                        "desc": "Prueba de descripción 2"
+                    }
+                ],
+                "Piscinas Temperadas": [
+                    {
+                        "id": "1",
+                        "name": "Prueba Imagen 1",
+                        "image": "1.jpg",
+                        "desc": "Prueba de descripción 1"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Prueba Imagen 2",
+                        "image": "2.jpg",
+                        "desc": "Prueba de descripción 2"
+                    }
+                ]
+            },
+            "Sub Mundo | Cuerpo y Mente": {
+                "Retiros Naturales y Yoga": [
+                    {
+                        "id": "1",
+                        "name": "Prueba Imagen 1",
+                        "image": "1.jpg",
+                        "desc": "Prueba de descripción 1"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Prueba Imagen 2",
+                        "image": "2.jpg",
+                        "desc": "Prueba de descripción 2"
+                    }
+                ],
+                "Eventos Especiales": [
+                    {
+                        "id": "1",
+                        "name": "Prueba Imagen 1",
+                        "image": "1.jpg",
+                        "desc": "Prueba de descripción 1"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Prueba Imagen 2",
+                        "image": "2.jpg",
+                        "desc": "Prueba de descripción 2"
+                    }
+                ]
+            }
+        }
+    }
+}
+    

@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-fab-button size="small" color="white" (click)="goBack()">
+      <ion-icon name="chevron-back-outline" color="dark"></ion-icon>
+    </ion-fab-button>
+  </ion-buttons>
+</ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row>
+    <ion-col sizeLg="6" sizeMd="6" sizeXs="12" *ngFor="let catFinal of categoriesFinal">
+      <ion-card [routerLink]="['/details', idCategory, idSubcategory, idSubcategoryFinal, catFinal.id]">
+        <img src="../../assets/final/{{catFinal.image}}">
+        <div class="card-title">{{catFinal.name}}</div>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-content>

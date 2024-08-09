@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-fab-button size="small" color="white" (click)="goBack()">
+        <ion-icon name="chevron-back-outline" color="dark"></ion-icon>
+      </ion-fab-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="red" [scrollY]="false" [scrollX]="false" fullscreen class="relative background">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Actividades</ion-title>
+  </ion-toolbar>
+  <div
+    class="absolute top-0 bottom-0 mt-[70%]"
+    (mousedown)="handleMouseDown($event)"
+    (touchstart)="activities.length > 4 ? handleTouchStart($event) : null"
+    (touchmove)="activities.length > 4 ? handleTouchMove($event) : null"
+    style="cursor: grab"
+  >
+    <div
+      class="rounded-full border absolute w-[150px] h-[150px]"
+      [ngStyle]="{
+        transform: 'rotate(' + rotation + 'deg)',
+        background: 'url(https://svgsilh.com/svg/159161.svg)',
+        backgroundSize: 'cover'
+      }"
+    >
+      <div
+        *ngFor="let activity of activities; let index = index"
+        class="rounded-full absolute w-[150px] h-[150px] mr-10 cursor-pointer"
+        [routerLink]="['/activity-items', idCategory, idSubcategory, activity.id_subcategoryFinal]"
+        [ngStyle]="{
+          top: calculateTop(index) + 'px',
+          left: calculateLeft(index) + 'px',
+          background: 'url(../../assets/mun2/'+ activity.icon_subcategoryFinal + ')',
+          backgroundSize: 'cover',
+          backgroundColor: 'white',
+        }"
+      >
+        <div class="text-center justify-center my-16 items-center">
+          <h1 class="text-xl font-bold text-orange-500" [ngStyle]="{ transform: 'rotate(' + rotation + 'deg)' }">
+            {{ activity.subcategoryFinal }}
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>

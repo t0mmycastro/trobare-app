@@ -1,0 +1,52 @@
+{
+    "data": [
+            {
+            "id": "1",
+            "name": "Spa de las Condes",
+            "image": "1.jpg",
+            "desc": "Un lugar de relajación en el corazón de las Condes, ofrece una amplia variedad de tratamientos de spa y masajes para reducir el estrés y mejorar la salud."
+            },
+            {
+            "id": "2",
+            "name": "Centro de Yoga Santiago",
+            "image": "2.jpg",
+            "desc": "Este centro de yoga en el centro de Santiago ofrece clases para todos los niveles, desde principiantes hasta avanzados, en un ambiente acogedor y relajado."
+            },
+            {
+            "id": "3",
+            "name": "Gimnasio Bodytech",
+            "image": "3.jpg",
+            "desc": "Este gimnasio moderno en el centro de Santiago ofrece una amplia variedad de clases grupales y entrenadores personales para mejorar la salud y el bienestar."
+            },
+            {
+            "id": "4",
+            "name": "Piscinas de los Leones",
+            "image": "4.jpg",
+            "desc": "Este complejo de piscinas al aire libre en los Leones ofrece un ambiente relajado para disfrutar de un día de sol y baño en agua fresca."
+            },
+            {
+            "id": "5",
+            "name": "Centro de Pilates Body & Mind",
+            "image": "5.jpg",
+            "desc": "Este centro de pilates en el barrio de Providencia ofrece clases individuales y grupales para mejorar la postura, la flexibilidad y la salud en general."
+            },
+            {
+            "id": "6",
+            "name": "Academia de Baile Dance Center",
+            "image": "6.jpg",
+            "desc": "Este centro de baile en el barrio de Bellavista ofrece clases de salsa, tango, hip hop y otros estilos para mejorar la salud mientras se divierte."
+            },
+            {
+            "id": "7",
+            "name": "Centro de Meditación Vipassana",
+            "image": "7.jpg",
+            "desc": "Este centro de meditación en el barrio de Las Condes ofrece clases y retiros para ayudar a las personas a encontrar la paz interior y mejorar su salud mental."
+            },
+            {
+            "id": "8",
+            "name": "Gimnasio CrossFit Santiago",
+            "image": "8.jpg",
+            "desc": "Este gimnasio de CrossFit en el barrio de Providencia ofrece entrenamientos intensos y variados para mejorar la condición física y la salud en general."
+            }
+    ]
+}

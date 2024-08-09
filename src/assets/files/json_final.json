@@ -1,0 +1,1151 @@
+{
+    "data": [
+        {
+            "category": "Actividades Recreativas",
+            "subcategories": [
+                {
+                    "subcategory": "Actividad Física",
+                    "categories": [
+                        {
+                            "subcategoryFinal": "Bowling",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Karting",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Paintball",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Pool",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Mini Golf",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Parapente",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Salto en Paracaídas",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Bungee y Swing",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Canopy y Tirolesa",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Canyoning",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Rafting y Kayak",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Patinaje Sobre Hielo",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Escaladas (Boulder y Muros)",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Trekking y Caminatas",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Buceo",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Buceo",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Surf",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Cabalgatas",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Centros de Ski",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subcategory": "Parques de Diversiones",
+                    "categories": [
+                        {
+                            "subcategoryFinal": "Atracciones Juveniles y Familiares",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Atracciones Infantiles",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Arcades y Flippers",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subcategory": "Mundo Animal",
+                    "categories": [
+                        {
+                            "subcategoryFinal": "Zoológicos",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Granjas Educativas",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Acuarios",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subcategory": "Aíre Libre",
+                    "categories": [
+                        {
+                            "subcategoryFinal": "Piscinas",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Parques y Reservas Nacionales",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Cerros y Miradores",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Tours y Rutas Turísticas",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Mundo Culinario",
+            "subcategories": [
+                {
+                    "subcategory": "Restaurantes",
+                    "categories": [
+                        {
+                            "subcategoryFinal": "Especialidad en Menú",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Especialidad en Diversos Platos",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Especialidad en Carnes",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Especialidad Marina",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Especialidad en Pizzas",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Especialidad en Sanwiches",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Especialidad en Hamburguesas",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Especialidad en Ensaladas",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Picadas",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Otra Especialidad",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subcategory": "Restaurantes Étnicos",
+                    "categories": [
+                        {
+                            "subcategoryFinal": "Comida Chilena",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Comida Italiana",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Comida Alemana",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Comida Francesa",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Comida Peruana",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Comida Japonesa",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Comida Nikei",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Comida China",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Comida Tailandesa",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Comida Árabe",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Comida Mexicana",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Otras Comidas Típicas",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subcategory": "Comida Rapida",
+                    "categories": [
+                        {
+                            "subcategoryFinal": "Cadenas de Comida Rápida",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Sandwishes, Completos y F. de Soda",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Empanadas",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Bajones",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        }
+
+                    ]
+                },
+                {
+                    "subcategory": "Gustos Dulces",
+                    "categories": [
+                        {
+                            "subcategoryFinal": "Cafeterías",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Heladerías",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Pastelerías",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+                
+
+            ]
+        },
+        {
+            "category": "Discos & Tragos",
+            "subcategories": [
+                {
+                    "subcategory": "Fiestas",
+                    "categories": [
+                        {
+                            "subcategoryFinal": "Discotecas",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Club Nocturnos",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Fiestas Especiales",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subcategory": "Bebidas y Música",
+                    "categories": [
+                        {
+                            "subcategoryFinal": "Pubs & Bares",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        },
+                        {
+                            "subcategoryFinal": "Restobar",
+                            "categoriesFinal": [
+                                {
+                                    "id": "1",
+                                    "name": "Prueba Imagen 1",
+                                    "image": "1.jpg",
+                                    "desc": "Prueba de descripción 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Prueba Imagen 2",
+                                    "image": "2.jpg",
+                                    "desc": "Prueba de descripción 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+
+
+
+
+
+
+
+       
+    ]
+}
