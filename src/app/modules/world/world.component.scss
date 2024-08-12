@@ -1,0 +1,44 @@
+ion-content {
+  --background: none;
+}
+/* Asegúrate de que no haya padding adicional en el contenido que pueda afectar el ancho de las columnas */
+ion-content {
+  padding: 0;
+}
+
+/* Ajustes para las tarjetas */
+ion-card {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin: 8px; /* Ajusta esto para asegurarte de que haya espacio para 3 tarjetas */
+  overflow: hidden;
+}
+
+/* Ajustes para el título de la tarjeta */
+.card-title {
+  padding: 15px;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 30px); /* Ajusta el padding del título aquí */
+  text-align: left;
+}
+
+/* Media queries para ajustar el número de tarjetas por fila */
+@media (min-width: 992px) {
+  ion-col {
+    max-width: calc(33.33% - 16px); /* Resta el margen de la tarjeta */
+    flex-basis: calc(33.33% - 16px);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  ion-col {
+    max-width: calc(50% - 16px); /* Resta el margen de la tarjeta */
+    flex-basis: calc(50% - 16px);
+  }
+}
+ 
+ 

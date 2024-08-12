@@ -12,7 +12,7 @@
   <ion-row>
     <!-- Ajusta los tamaños de las columnas para diferentes puntos de ruptura -->
     <ion-col size-lg="4" size-md="6" size-xs="12" *ngFor="let subcategory of subcategories">
-      <ion-card [routerLink]="['/activity', idCategory, subcategory.id_subcategory]">
+      <ion-card [routerLink]="['/activity', idCategory, subcategory.id_subcategory]" class="w-40 h-40">
         <img src="../../assets/mun2/{{subcategory.icon_subcategory}}">
         <div class="card-title">{{subcategory.subcategory}}</div>
       </ion-card>

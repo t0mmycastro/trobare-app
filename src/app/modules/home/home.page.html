@@ -9,9 +9,11 @@
 <ion-content [fullscreen]="true">
   <ion-row>
     <ion-col sizeLg="6" sizeMd="6" sizeXs="12" *ngFor="let category of categories">
-      <ion-card [routerLink]="['/world', category.id_category]">
-        <img src="../../assets/img-cities/{{category.icon_category}}">
-        <div class="card-title">{{category.category}}</div>
+      <ion-card [routerLink]="['/world', category.id_category]" class="h-40">
+        <div class="card-title absolute bg-white p-2 rounded-xl text-black left-5 top-4">{{category.category}}
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </div>
+        <img src="../../assets/img-cities/{{category.icon_category}}" class="flex justify-center items-center">
       </ion-card>
     </ion-col>
   </ion-row>

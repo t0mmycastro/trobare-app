@@ -21,7 +21,9 @@ export class DetailsComponent  implements OnInit {
     private categoryService: CategoryService
   ) { }
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.readCategory()
+  }
 
   readCategory(){
     this.idCategory = this.getIdCategory();
@@ -35,6 +37,7 @@ export class DetailsComponent  implements OnInit {
         const subCategory = category.subcategories.find((subcat: any) => subcat.id_subcategory === this.idSubcategory)
         const subcategoryFinal = subCategory.categories.find((subcatFinal: any) => subcatFinal.id_subcategoryFinal === this.idSubcategoryFinal)
         this.categoryFinal = subcategoryFinal.categoriesFinal.find((catFinal: any) => catFinal.id === this.id)
+        console.log(this.categoryFinal);
       }
     })
   }

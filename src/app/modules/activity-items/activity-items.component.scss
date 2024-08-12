@@ -1,0 +1,24 @@
+ion-content {
+  --background: none;
+}
+/* Asegúrate de que no haya padding adicional en el contenido que pueda afectar el ancho de las columnas */
+ion-content {
+  padding: 0;
+}
+
+/* Media queries para ajustar el número de tarjetas por fila */
+@media (min-width: 992px) {
+  ion-col {
+    max-width: calc(33.33% - 16px); /* Resta el margen de la tarjeta */
+    flex-basis: calc(33.33% - 16px);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  ion-col {
+    max-width: calc(50% - 16px); /* Resta el margen de la tarjeta */
+    flex-basis: calc(50% - 16px);
+  }
+}
+ 
+ 

@@ -11,9 +11,9 @@
 <ion-content>
   <ion-row>
     <ion-col sizeLg="6" sizeMd="6" sizeXs="12" *ngFor="let catFinal of categoriesFinal">
-      <ion-card [routerLink]="['/details', idCategory, idSubcategory, idSubcategoryFinal, catFinal.id]">
-        <img src="../../assets/final/{{catFinal.image}}">
-        <div class="card-title">{{catFinal.name}}</div>
+      <ion-card [routerLink]="['/details', idCategory, idSubcategory, idSubcategoryFinal, catFinal.id]" class="w-40 h-40">
+        <img src="../../assets/final/{{catFinal.image}}" class="h-32 w-full">
+        <div class="text-lg text-center text-white">{{catFinal.name}}</div>
       </ion-card>
     </ion-col>
   </ion-row>
