@@ -37,6 +37,7 @@ export class ActivityComponent implements OnInit, OnDestroy {
           const subcategory = category.subcategories.find((subcat: any) => subcat.id_subcategory === this.idSubcategory);
           if (subcategory) {
             this.activities = subcategory.categories || [];
+            console.log(this.activities)
           } else {
             console.error('Subcategoría no encontrada');
           }

@@ -1,20 +1,71 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Inicio
-    </ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title class="title1">Mundos</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon name="notifications-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
+  <br>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-row>
-    <ion-col sizeLg="6" sizeMd="6" sizeXs="12" *ngFor="let category of categories">
-      <ion-card [routerLink]="['/world', category.id_category]" class="h-40">
-        <div class="card-title absolute bg-white p-2 rounded-xl text-black left-5 top-4">{{category.category}}
-          <ion-icon name="arrow-forward-outline"></ion-icon>
-        </div>
-        <img src="../../assets/img-cities/{{category.icon_category}}" class="flex justify-center items-center">
-      </ion-card>
-    </ion-col>
-  </ion-row>
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size-xs="12" size-sm="6" size-md="4" size-lg="3" size-xl="2" *ngFor="let card of cards; let i = index">
+        <ion-card [ngStyle]="{'clip-path': card.clipPath, 'background-image': 'url(' + card.imageUrl + ')', 'background-size': 'cover', 'background-position': 'center'}">
+          <img [src]="card.imageUrl" alt="Imagen Tarjeta {{i + 1}}">
+          <ion-card-content>
+            <br>
+            <div [ngStyle]="getSubCardStyle(i)">
+              <ion-card class="cardsipo">
+                <ion-card-header>
+                  <a [routerLink]="['/world', categories[i]?.id_category]"> <br>  <br>  <br></a>
+                </ion-card-header>
+              </ion-card>
+            </div>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
+
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-button fill="clear">
+            <ion-icon name="home-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button fill="clear">
+            <ion-icon name="heart-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button fill="clear">
+            <ion-icon name="search-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button fill="clear">
+            <ion-icon name="globe-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button fill="clear">
+            <ion-icon name="map-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-footer>

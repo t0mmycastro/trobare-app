@@ -10,8 +10,10 @@ ion-content {
 ion-card {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   border-radius: 10px;
-  margin: 8px; /* Ajusta esto para asegurarte de que haya espacio para 3 tarjetas */
+  border: none;
+  margin: 1px; /* Ajusta esto para asegurarte de que haya espacio para 3 tarjetas */
   overflow: hidden;
+  height: auto; /* Esto asegura que la altura de la tarjeta se ajuste al contenido */
 }
 
 /* Ajustes para el título de la tarjeta */
@@ -41,4 +43,46 @@ ion-card {
   }
 }
  
+//card transparente intento
+.transparent-card {
+  --ion-card-background: rgba(0, 0, 0, 0); /* Fondo transparente */
+}
+
+.card-title {
+  background-color: rgba(255, 255, 255, 0.6); /* Fondo semitransparente para el texto */
+  padding: 10px; /* Añade un poco de espacio alrededor del texto */
+}
+
+ion-card img {
+  width: 100%; /* Asegura que la imagen cubra el ancho de la tarjeta */
+  height: auto; /* Mantiene la proporción de la imagen */
+  object-fit: cover; /* Asegura que la imagen cubra el espacio disponible */
+}
+
  
+
+  
+ion-toolbar {
+  --background: #f0f0f0; /* Ajusta el color de fondo del toolbar */
+  --color: #008080; /* Ajusta el color del texto y de los iconos */
+}
+
+.title1 {
+  font-size: 24px; /* Ajusta el tamaño de la fuente del título */
+  font-weight: bold; /* Ajusta el peso de la fuente del título */
+  color: #008080; /* Ajusta el color del título */
+}
+
+ion-toolbar ion-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+ion-toolbar ion-title {
+  font-size: 24px; /* Ajusta el tamaño de la fuente del título */
+  font-weight: bold; /* Ajusta el peso de la fuente del título */
+  color: #008080; /* Ajusta el color del título */
+}
+

@@ -1,0 +1,53 @@
+.section {
+  border-bottom: 1px solid #191cdd; /* Añade una línea horizontal */
+  padding: 4px 0; /* Espaciado dentro de cada sección */
+  
+  /* Opcional: Añade estilos para la última sección para quitar la línea */
+  &:last-child {
+    border-bottom: none;
+  }
+}
+.rounded-container {
+  //border: 2px solid #2415ec; /* Añade un borde al contenedor */
+  border-radius: 20px; /* Esquinas redondeadas */
+  overflow: hidden; /* Asegura que el contenido no sobresalga de las esquinas redondeadas */
+  margin: 20px; /* Añade un margen alrededor del contenedor para separarlo de los bordes de la pantalla */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: añade una sombra para un efecto elevado */
+}
+
+.rounded-container {
+  /* Estilos previos */
+  overflow: hidden; /* Asegura que el contenido interno no sobrepase los bordes redondeados */
+}
+
+.section {
+  /* Estilos para todas las secciones */
+  
+  
+  &:first-child {
+    /* Estilos específicos para la primera sección */
+    min-height: 160px; /* Altura mínima */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px; /* Aplica bordes redondeados */
+    margin: 0px; /* Margen para separar de los bordes del dispositivo y mostrar el efecto de bordes redondeados */
+    overflow: hidden; /* Esencial para aplicar el efecto de bordes redondeados a la imagen de fondo */
+  }
+  
+  &:not(:first-child) {
+    margin: 0 5px; /* Asegura que las demás secciones no tengan el mismo margen lateral */
+  }
+}
+
+.icono-app {
+  width: 35px; /* Ancho del ícono */
+  height: 35px; /* Alto del ícono */
+  object-fit: contain; /* Asegura que la imagen se escale correctamente dentro de las dimensiones especificadas*/ 
+  border-radius: 50%;
+
+  
+}
+
+
+

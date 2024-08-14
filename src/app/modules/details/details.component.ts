@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { NavController } from '@ionic/angular';
+import { ModalController, NavController, NavParams } from '@ionic/angular';
 import { CategoryService } from 'src/app/core/services/category/category.service';
 
 @Component({
@@ -18,11 +18,17 @@ export class DetailsComponent  implements OnInit {
   constructor(
     private route: ActivatedRoute, 
     private navController: NavController,
-    private categoryService: CategoryService
+    private categoryService: CategoryService,
+    private modalCtrl: ModalController,
+    private navParams: NavParams
   ) { }
 
   ngOnInit() {
     this.readCategory()
+  }
+
+  cerrarModal() {
+    this.modalCtrl.dismiss();
   }
 
   readCategory(){
@@ -37,9 +43,9 @@ export class DetailsComponent  implements OnInit {
         const subCategory = category.subcategories.find((subcat: any) => subcat.id_subcategory === this.idSubcategory)
         const subcategoryFinal = subCategory.categories.find((subcatFinal: any) => subcatFinal.id_subcategoryFinal === this.idSubcategoryFinal)
         this.categoryFinal = subcategoryFinal.categoriesFinal.find((catFinal: any) => catFinal.id === this.id)
-        console.log(this.categoryFinal);
       }
     })
+    this.categoryFinal = this.navParams.get('categoryFinal');
   }
 
   getIdCategory(){

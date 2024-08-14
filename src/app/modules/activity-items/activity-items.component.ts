@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { NavController } from '@ionic/angular';
+import { ModalController, NavController } from '@ionic/angular';
 import { CategoryService } from 'src/app/core/services/category/category.service';
+import { DetailsComponent } from '../details/details.component';
 
 @Component({
   selector: 'app-activity-items',
@@ -15,7 +16,11 @@ export class ActivityItemsComponent  implements OnInit {
   idSubcategory: string | null = null;
   idSubcategoryFinal: string | null = null;
 
-  constructor(    private route: ActivatedRoute,private navController: NavController, private categoryService: CategoryService) { }
+  constructor(     private route: ActivatedRoute, 
+    private navController: NavController,
+    private modalctrl: ModalController,
+    private categoryService: CategoryService
+  ) { }
 
   ngOnInit() {
     this.readCategory();
@@ -46,6 +51,17 @@ export class ActivityItemsComponent  implements OnInit {
 
   getIdSubCategoryFinal(){
     return this.route.snapshot.paramMap.get('id_subcategory_final');
+  }
+
+  async openMyModal(categoryFinal: any) {
+    const myModal = await this.modalctrl.create({
+      component: DetailsComponent,
+      cssClass: 'mi-modal-personalizado', // Usar tu clase personalizada aquí
+      componentProps: {
+        categoryFinal: categoryFinal // Pasas la categoría específica al modal
+      }
+    });
+    return await myModal.present();
   }
 
   goBack() {

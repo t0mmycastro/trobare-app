@@ -19,19 +19,34 @@
                                     "id": "1111",
                                     "name": "Karting GoKarts",
                                     "image": "1000.jpg",
-                                    "desc": "Estamos ubicados en Valenzuela Puelma 9.500, Santiago, Las Condes, Región Metropolitana. (límite comuna La Reina)"
+                                    "desc": "Estamos ubicados en Valenzuela Puelma 9.500, Santiago, Las Condes, Región Metropolitana. (límite comuna La Reina)",
+                                    "numLocal": "(+56) 94 807 3142",
+                                    "horario": "10:00 am - 21:00 pm",
+                                    "rangoPrecio": "$15.000 - $20.000",
+                                    "web": "gokarts.cl",
+                                    "footer": "Conoce nuestras grandiosas pistas"
                                 },
                                 {
                                     "id": "1112",
                                     "name": "Karting Club Tocornal",
                                     "image": "tocornal.jpg",
-                                    "desc": "Un lugar popular para el karting que ofrece alquiler de karts y carreras competitivas."
+                                    "desc": "Un lugar popular para el karting que ofrece alquiler de karts y carreras competitivas.",
+                                    "numLocal": "(+56) 94 807 3142",
+                                    "horario": "10:00 am - 22:00 pm",
+                                    "rangoPrecio": "$20.000 - $25.000",
+                                    "web": "prokarting.cl",
+                                    "footer": "Conoce nuestras grandiosas pistas"
                                 },
                                 {
                                     "id": "1113",
                                     "name": "Kartodromo Las Americas",
                                     "image": "lasamericas.jpg",
-                                    "desc": "Otro lugar popular para correr karts, con una amplia pista y karts de alquiler."
+                                    "desc": "Otro lugar popular para correr karts, con una amplia pista y karts de alquiler.",
+                                    "numLocal": "(+56) 94 807 3142",
+                                    "horario": "10:00 am - 22:00 pm",
+                                    "rangoPrecio": "$20.000 - $25.000",
+                                    "web": "prokarting.cl",
+                                    "footer": "Conoce nuestras grandiosas pistas"
                                 },
                                 {
                                     "id": "1114",
@@ -47,6 +62,12 @@
                                 },
                                 {
                                     "id": "1116",
+                                    "name": "XtremeKart",
+                                    "image": "xtremekart.jpg",
+                                    "desc": "Conocido por su amplia pista y varios karts para elegir."
+                                },
+                                {
+                                    "id": "1117",
                                     "name": "XtremeKart",
                                     "image": "xtremekart.jpg",
                                     "desc": "Conocido por su amplia pista y varios karts para elegir."
@@ -1432,7 +1453,7 @@
                     "categories": [
                         {
                             "subcategoryFinal": "Discotecas",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "075.jpg",
                             "id_subcategoryFinal": "311",
                             "categoriesFinal": [
                               {
@@ -1464,7 +1485,7 @@
                           
                         {
                             "subcategoryFinal": "Club Nocturnos",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "076.jpg",
                             "id_subcategoryFinal": "312",
                             "categoriesFinal": [
                                 {
@@ -1483,7 +1504,7 @@
                         },
                         {
                             "subcategoryFinal": "Fiestas Especieales",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "077.jpg",
                             "id_subcategoryFinal": "313",
                             "categoriesFinal": [
                                 {
@@ -1510,7 +1531,7 @@
                     "categories": [
                         {
                             "subcategoryFinal": "Pubs & Bares",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "078.jpg",
                             "id_subcategoryFinal": "321",
                             "categoriesFinal": [
                                 {
@@ -1529,7 +1550,7 @@
                         },
                         {
                             "subcategoryFinal": "Restobar",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "079.jpg",
                             "id_subcategoryFinal": "322",
                             "categoriesFinal": [
                                 {
@@ -1548,7 +1569,7 @@
                         },
                         {
                             "subcategoryFinal": "Karaoke",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "080.jpg",
                             "id_subcategoryFinal": "323",
                             "categoriesFinal": [
                                 {
@@ -1581,7 +1602,7 @@
                     "categories": [
                         {
                             "subcategoryFinal": "Cine",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "081.jpg",
                             "id_subcategoryFinal": "411",
                             "categoriesFinal": [
                                 {
@@ -1600,7 +1621,7 @@
                         },
                         {
                             "subcategoryFinal": "Teatro y Musicales",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "082.jpg",
                             "id_subcategoryFinal": "412",
                             "categoriesFinal": [
                                 {
@@ -1619,7 +1640,7 @@
                         },
                         {
                             "subcategoryFinal": "Danza",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "083.jpg",
                             "id_subcategoryFinal": "413",
                             "categoriesFinal": [
                                 {
@@ -1638,7 +1659,7 @@
                         },
                         {
                             "subcategoryFinal": "Circos",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "084.jpg",
                             "id_subcategoryFinal": "414",
                             "categoriesFinal": [
                                 {
@@ -1657,7 +1678,7 @@
                         },
                         {
                             "subcategoryFinal": "Humor",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "085.jpg",
                             "id_subcategoryFinal": "415",
                             "categoriesFinal": [
                                 {
@@ -1676,7 +1697,7 @@
                         },
                         {
                             "subcategoryFinal": "Magia",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "086.jpg",
                             "id_subcategoryFinal": "416",
                             "categoriesFinal": [
                                 {
@@ -1695,7 +1716,7 @@
                         },
                         {
                             "subcategoryFinal": "Shows Infantiles",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "087.jpg",
                             "id_subcategoryFinal": "417",
                             "categoriesFinal": [
                                 {
@@ -1714,7 +1735,7 @@
                         },
                         {
                             "subcategoryFinal": "Shows Especiales",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "088.jpg",
                             "id_subcategoryFinal": "418",
                             "categoriesFinal": [
                                 {
@@ -1741,7 +1762,7 @@
                     "categories": [
                         {
                             "subcategoryFinal": "Conciertos",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "089.jpg",
                             "id_subcategoryFinal": "421",
                             "categoriesFinal": [
                                 {
@@ -1760,7 +1781,7 @@
                         },
                         {
                             "subcategoryFinal": "Orquestas y Óperas",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "090.jpg",
                             "id_subcategoryFinal": "422",
                             "categoriesFinal": [
                                 {
@@ -1779,7 +1800,7 @@
                         },
                         {
                             "subcategoryFinal": "Festivales Musicales",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "091.jpg",
                             "id_subcategoryFinal": "423",
                             "categoriesFinal": [
                                 {
@@ -1805,7 +1826,7 @@
                     "categories": [
                         {
                             "subcategoryFinal": "Museos",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "092.jpg",
                             "id_subcategoryFinal": "431",
                             "categoriesFinal": [
                                 {
@@ -1824,7 +1845,7 @@
                         },
                         {
                             "subcategoryFinal": "Ferias y Exposiciones",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "093.jpg",
                             "id_subcategoryFinal": "432",
                             "categoriesFinal": [
                                 {
@@ -1843,7 +1864,7 @@
                         },
                         {
                             "subcategoryFinal": "Conferencias y Charlas",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "094.jpg",
                             "id_subcategoryFinal": "433",
                             "categoriesFinal": [
                                 {
@@ -1870,7 +1891,7 @@
                     "categories": [
                         {
                             "subcategoryFinal": "Fútbol",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "095.jpg",
                             "id_subcategoryFinal": "441",
                             "categoriesFinal": [
                                 {
@@ -1889,7 +1910,7 @@
                         },
                         {
                             "subcategoryFinal": "Deportes de Raqueta",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "096.jpg",
                             "id_subcategoryFinal": "442",
                             "categoriesFinal": [
                                 {
@@ -1908,7 +1929,7 @@
                         },
                         {
                             "subcategoryFinal": "Artes Marciales",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "097.jpg",
                             "id_subcategoryFinal": "443",
                             "categoriesFinal": [
                                 {
@@ -1927,7 +1948,7 @@
                         },
                         {
                             "subcategoryFinal": "Básquetbol",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "098.jpg",
                             "id_subcategoryFinal": "444",
                             "categoriesFinal": [
                                 {
@@ -1946,7 +1967,7 @@
                         },
                         {
                             "subcategoryFinal": "Rugby",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "099.jpg",
                             "id_subcategoryFinal": "445",
                             "categoriesFinal": [
                                 {
@@ -1965,7 +1986,7 @@
                         },
                         {
                             "subcategoryFinal": "Hockey",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "100.jpg",
                             "id_subcategoryFinal": "446",
                             "categoriesFinal": [
                                 {
@@ -1984,7 +2005,7 @@
                         },
                         {
                             "subcategoryFinal": "Carreras",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "101.jpg",
                             "id_subcategoryFinal": "447",
                             "categoriesFinal": [
                                 {
@@ -2003,7 +2024,7 @@
                         },
                         {
                             "subcategoryFinal": "Juegos de Mesa",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "102.jpg",
                             "id_subcategoryFinal": "448",
                             "categoriesFinal": [
                                 {
@@ -2022,7 +2043,7 @@
                         },
                         {
                             "subcategoryFinal": "Atletismo",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "103.jpg",
                             "id_subcategoryFinal": "449",
                             "categoriesFinal": [
                                 {
@@ -2041,7 +2062,7 @@
                         },
                         {
                             "subcategoryFinal": "Otros Eventos Deportivos",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "104.jpg",
                             "id_subcategoryFinal": "4400010",
                             "categoriesFinal": [
                                 {
@@ -2074,7 +2095,7 @@
                     "categories": [
                         {
                             "subcategoryFinal": "Termas",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "105.jpg",
                             "id_subcategoryFinal": "511",
                             "categoriesFinal": [
                                 {
@@ -2093,7 +2114,7 @@
                         },
                         {
                             "subcategoryFinal": "Spa, Masajes y Terapias",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "106.jpg",
                             "id_subcategoryFinal": "512",
                             "categoriesFinal": [
                                 {
@@ -2112,7 +2133,7 @@
                         },
                         {
                             "subcategoryFinal": "Baños y Saunas",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "107.jpg",
                             "id_subcategoryFinal": "513",
                             "categoriesFinal": [
                                 {
@@ -2131,7 +2152,7 @@
                         },
                         {
                             "subcategoryFinal": "Piscinas Temperadas",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "108.jpg",
                             "id_subcategoryFinal": "514",
                             "categoriesFinal": [
                                 {
@@ -2158,7 +2179,7 @@
                     "categories": [
                         {
                             "subcategoryFinal": "Retiros Naturales y Yoga",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "109.jpg",
                             "id_subcategoryFinal": "521",
                             "categoriesFinal": [
                                 {
@@ -2177,7 +2198,7 @@
                         },
                         {
                             "subcategoryFinal": "Eventos Especiales",
-                            "icon_subcategoryFinal": "1.jpg",
+                            "icon_subcategoryFinal": "110.jpg",
                             "id_subcategoryFinal": "522",
                             "categoriesFinal": [
                                 {

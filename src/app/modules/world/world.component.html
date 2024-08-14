@@ -5,17 +5,60 @@
         <ion-icon name="chevron-back-outline" color="dark"></ion-icon>
       </ion-fab-button>
     </ion-buttons>
+
+    <!-- <ion-title class="title1">Mundos</ion-title> -->
+    
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon name="notifications-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
+  <br>
 </ion-header>
 
 <ion-content>
   <ion-row>
     <!-- Ajusta los tamaños de las columnas para diferentes puntos de ruptura -->
     <ion-col size-lg="4" size-md="6" size-xs="12" *ngFor="let subcategory of subcategories">
-      <ion-card [routerLink]="['/activity', idCategory, subcategory.id_subcategory]" class="w-40 h-40">
+      <ion-card class="transparent-card" [routerLink]="['/activity', idCategory, subcategory.id_subcategory]">
         <img src="../../assets/mun2/{{subcategory.icon_subcategory}}">
-        <div class="card-title">{{subcategory.subcategory}}</div>
       </ion-card>
     </ion-col>
   </ion-row>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-button fill="clear">
+            <ion-icon name="home-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button fill="clear">
+            <ion-icon name="heart-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button fill="clear">
+            <ion-icon name="search-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button fill="clear">
+            <ion-icon name="globe-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button fill="clear">
+            <ion-icon name="map-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-footer>
+

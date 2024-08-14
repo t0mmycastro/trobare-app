@@ -1,5 +1,103 @@
-.background {
-  background-size: "cover";
-  background-repeat: "no-repeat";
-  background: "url('https://wallpapers.com/images/featured/nature-2ygv7ssy2k0lxlzu.jpg')";
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+//cards futuristas
+
+.card {
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+ion-card {
+  --border-radius: 15px; /* Ajusta el border-radius de las tarjetas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra para un efecto elevado */
+  max-width: 400px; /* Ajusta el ancho máximo de las tarjetas */
+  height: 100%;
+}
+
+.card-circular {
+  --border-radius: 50%; /* Hace que los bordes sean completamente redondos */
+  width: 50px; /* Ancho de la tarjeta circular */
+  height: 50px; /* Altura de la tarjeta circular, igual al ancho para un círculo perfecto */
+  display: flex;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+}
+
+ion-card img {
+  width: 0%; /* Asegura que la imagen ocupe todo el ancho de la tarjeta */
+  height: 0%; /* Asegura que la imagen ocupe todo el alto de la tarjeta */
+  object-fit: cover; /* Asegura que la imagen cubra el espacio sin distorsionarse, cortando el exceso */
+  object-position: center; /* Centra la imagen dentro del espacio disponible */
+  border-radius: inherit; /* Hereda el border-radius de la tarjeta para mantener la consistencia */
+}
+.cardsipo{
+  width: 1170px;
+  height: 120px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.full-size-button {
+  position: absolute; /* Posiciona el botón de manera absoluta dentro de la tarjeta */
+  top: 0;
+  left: 0;
+  width: 100%; /* Asegura que el botón cubra todo el ancho de la tarjeta */
+  height: 100%; /* Asegura que el botón cubra todo el alto de la tarjeta */
+  z-index: 10; /* Asegura que el botón esté sobre el contenido de la tarjeta */
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
+ion-toolbar {
+--background: #f0f0f0; /* Ajusta el color de fondo del toolbar */
+--color: #008080; /* Ajusta el color del texto y de los iconos */
+}
+
+.title1 {
+font-size: 24px; /* Ajusta el tamaño de la fuente del título */
+font-weight: bold; /* Ajusta el peso de la fuente del título */
+color: #008080; /* Ajusta el color del título */
+}
+
+ion-toolbar ion-button {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+
+ion-toolbar ion-title {
+font-size: 24px; /* Ajusta el tamaño de la fuente del título */
+font-weight: bold; /* Ajusta el peso de la fuente del título */
+color: #008080; /* Ajusta el color del título */
 }
